@@ -10,7 +10,8 @@ const logParams = (req,res, next) => {
 
 // middlewares
 app.use(logParams);
-
+// 
+// 
 // respond with 'hello world' when a  get request is made to the homepage
 app.get("/", function(req,res){
     res.send('hello world');
